@@ -1,0 +1,50 @@
+.title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /*border: 2px solid red;*/
+}
+
+.indexPics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /*border: 2px solid red;*/
+}
+
+.indexPics img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 1%;
+    border-style: dashed;
+}
+
+.indexPics img:hover {
+    opacity: 0.2;
+}
+ 
+body {
+    background-color: rgb(170, 168, 169);
+}
+
+.navbar {
+    display: flex;
+    display: block;
+    background-color: rgb(226, 186, 125);
+    width: 35%;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.navbar a {
+    width:fit-content;
+    justify-content: space-evenly;
+        
+}
+
+.navbar a:hover {
+    background-color: red;
+    color: white;
+}
